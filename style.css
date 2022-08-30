@@ -115,3 +115,21 @@ body{
 .logod:hover{
     box-shadow: 0 0 5px #03e954,0 0 25px #03e954, 0 0 50px #03e954,0 0 200px #03e954;
 }
+
+@media(max-width:600px){
+    #foot{
+        max-width:100%;
+        height:200px;
+        display:flex;
+        flex-direction: column;
+    }
+    .logod{
+        width:30px;
+        height:30px;
+    }
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        backdrop-filter: blur(5px);
+    }
+}
